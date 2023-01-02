@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -8,6 +9,9 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  justify-content: center; /* aling horizontal */
+  align-items: center; /* aling vertical */
+  flex-direction: column; /*aling em coluna */
 }
 
 .item {
@@ -15,4 +19,8 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  display: flex;
+  justify-content: center; /*aling hoizontal */
+  align-items: center; /*aling vertical */
+  margin: 2vh;
 }
